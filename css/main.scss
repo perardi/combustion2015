@@ -97,9 +97,49 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+$firered: #ef1c26;
 
+body {
+	background: #111;
+}
 
+nav {
+	text-align: center;
+}
 
+nav ul {
+	display: inline;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li {
+	display: inline;
+	color: #eee;
+	text-align: center;
+}
+
+.home_intro {
+	width: 50%;
+	margin: 0 auto;
+}
+
+h1.intro_title {
+	font-family: 'Racing Sans One', cursive;
+	text-transform: uppercase;
+	text-align: center;
+	line-height: 1.1;
+	color: $firered;
+}
+
+h2.intro_details {
+	font-family: 'Racing Sans One', cursive;
+	color: #eee;
+	line-height: 1.2;
+	text-align: center;
+	border-top: 1px solid #ccc;
+}
 
 
 
