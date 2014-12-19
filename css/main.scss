@@ -100,11 +100,13 @@ textarea {
 $firered: #ef1c26;
 
 body {
-	background: #111;
+	background: #020202 url('../img/fire.jpg') no-repeat scroll top center;
+	background-size: 120%;
 }
 
 nav {
 	text-align: center;
+	display: none;
 }
 
 nav ul {
@@ -123,14 +125,36 @@ nav ul li {
 .home_intro {
 	width: 50%;
 	margin: 0 auto;
+	position: relative;
+	z-index: 10;
 }
 
 h1.intro_title {
 	font-family: 'Racing Sans One', cursive;
 	text-transform: uppercase;
 	text-align: center;
-	line-height: 1.1;
+	line-height: 1.0;
 	color: $firered;
+	font-size: 6rem;
+	opacity: 0.85;
+	margin: 6rem 0 0 0;
+}
+
+.intro_rule {
+	width: 60%;
+	height: 1px;
+	background: #ccc;
+	margin: 0 auto;
+	margin-top: 1.25em;
+	margin-bottom: 1.25em;
+}
+
+img.intro_logo {
+	margin: 0 auto;
+	width: 25%;
+	position: relative;
+	left: 37.5%;
+	margin-top: 3em;
 }
 
 h2.intro_details {
@@ -138,13 +162,39 @@ h2.intro_details {
 	color: #eee;
 	line-height: 1.2;
 	text-align: center;
-	border-top: 1px solid #ccc;
+	opacity: 0.9;
+	font-size: 3rem;
+	margin: 0;
+}
+
+.star_left {
+	width: 0.6em;
+	margin-top: -0.2em;
+	margin-right: 0.75em;
+}
+
+.star_right {
+	width: 0.6em;
+	margin-top: -0.2em;
+	margin-left: 0.75em;
 }
 
 
+.home_social {
+	display: none;
+}
 
+.home_wash {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
 
-
+.home_wash img {
+	width: 90% !important;
+	float: right;
+	opacity: .25;
+}
 
 
 
