@@ -102,7 +102,7 @@ $firered: #ef1c26;
 body {
 	background: #020202 url('../img/fire.jpg') no-repeat scroll top center;
 	background-size: 120%;
-	font-family: "aktiv-grotesk-std", sans-serif;
+	font-family: "Aktiv Grotesk", "aktiv-grotesk-std", sans-serif;
 }
 
 nav {
@@ -124,6 +124,8 @@ nav ul li {
 	text-align: center;
 	text-transform: uppercase;
 	color: #eee;
+	font-size: 0.9em;
+	margin-left: 1em;
 }
 
 .home_intro {
