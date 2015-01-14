@@ -355,6 +355,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/home_photos\/15117723273_575214e83e_o.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 91690,
+		"inputAbbreviatedPath": "\/img\/home_photos\/15117723273_575214e83e_o.jpg",
+		"outputAbbreviatedPath": "\/img\/home_photos\/15117723273_575214e83e_o.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/home_photos\/15709887375_f5fdeb15d1_o.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 45308,
+		"inputAbbreviatedPath": "\/img\/home_photos\/15709887375_f5fdeb15d1_o.jpg",
+		"outputAbbreviatedPath": "\/img\/home_photos\/15709887375_f5fdeb15d1_o.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/home_photos\/_5260241.jpg": {
+		"fileType": 16384,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 156949,
+		"inputAbbreviatedPath": "\/img\/home_photos\/_5260241.jpg",
+		"outputAbbreviatedPath": "\/img\/home_photos\/_5260241.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/home_photos\/_DSC0151.jpg": {
 		"fileType": 16384,
 		"ignore": 1,
