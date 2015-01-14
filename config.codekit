@@ -67,7 +67,7 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 3,
-		"shouldRunAutoprefixer": 0,
+		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
@@ -351,6 +351,17 @@
 		"initialSize": 87968,
 		"inputAbbreviatedPath": "\/img\/home_battle.jpg",
 		"outputAbbreviatedPath": "\/img\/home_battle.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/home_photos\/_DSC0151.jpg": {
+		"fileType": 16384,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 76139,
+		"inputAbbreviatedPath": "\/img\/home_photos\/_DSC0151.jpg",
+		"outputAbbreviatedPath": "\/img\/home_photos\/_DSC0151.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
