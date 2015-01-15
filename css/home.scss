@@ -102,6 +102,20 @@ $overred: saturate(darken($firered, 20), 34);
 	transform:rotateY(360deg);
 }
 
+img.star {
+	float: left;
+	width: 0.5em !important;
+	margin-top: -0.2em !important;
+	margin-left: 1em !important;
+}
+
+img.star_right {
+	float: right !important;
+	width: 0.5em !important;
+	margin-top: -0.2em !important;
+	margin-right: 1em !important;
+}
+
 .home h1 {
 	font-family: 'Racing Sans One', cursive;
 	color: $firered;
@@ -137,4 +151,10 @@ $overred: saturate(darken($firered, 20), 34);
 
 .social a {
 	color: #fff !important;
+}
+
+.smallcaps {
+	font-weight: 400;
+	letter-spacing: 0.5em;
+	text-transform: uppercase;
 }
