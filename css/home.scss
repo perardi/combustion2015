@@ -90,6 +90,16 @@ $overred: saturate(darken($firered, 20), 34);
 /*********** Logo Box ***********/
 .logos {
 	padding: 0.8em;
+	background: #000 url('../img/home_photos/fire.jpg') no-repeat scroll top left;
+	background-size: contain;
+}
+
+.logos img {
+	transition: transform .4s ease-in-out;  
+}
+
+.logos:hover img {
+	transform:rotateY(360deg);
 }
 
 .home h1 {
@@ -99,13 +109,14 @@ $overred: saturate(darken($firered, 20), 34);
 	line-height: 0.9;
 	margin: 0;
 	font-size: 6vh;
+	padding-bottom: 0.15em;
 }
 
 .home h2 {
 	font-family: 'Racing Sans One', cursive;
 	text-align: center;	
 	line-height: 1.1;
-	border-top: 1px solid #fff;
+	border-top: 1px solid #ddd;
 	margin: 0 auto;
 	font-size: 2.5vh;
 	width: 65%;
@@ -113,7 +124,7 @@ $overred: saturate(darken($firered, 20), 34);
 }
 
 .home img {
-	width: 7vw;
+	width: 6.5vw;
 	margin: 0 auto;
 	position: relative;
 	padding-top: 0.5em;

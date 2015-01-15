@@ -379,6 +379,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/home_photos\/fire.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10096,
+		"inputAbbreviatedPath": "\/img\/home_photos\/fire.jpg",
+		"outputAbbreviatedPath": "\/img\/home_photos\/fire.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/includes\/head.html": {
 		"fileType": 8192,
 		"ignore": 1,
