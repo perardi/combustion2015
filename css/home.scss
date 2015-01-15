@@ -42,9 +42,9 @@
 }
 
 .box:hover .blur {
-	width: 120%;
+	width: 115%;
 	top: -30%;
-	left: -7%;
+	left: -10%;
 }
 
 .overlay {
@@ -70,7 +70,7 @@ $overred: saturate(darken($firered, 20), 34);
 
 .linktext {
 	position: relative;
-	z-index: 5;
+	z-index: 2;
 	top: 40%;
 }
 
@@ -79,7 +79,6 @@ $overred: saturate(darken($firered, 20), 34);
   	filter: blur(3px);
   	filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='3');
 	opacity: 0.3;
-	
 }
 
 .blur:hover  {
@@ -118,4 +117,13 @@ $overred: saturate(darken($firered, 20), 34);
 	margin: 0 auto;
 	position: relative;
 	padding-top: 0.5em;
+}
+
+/*********** Social ***********/
+.social {
+	background: $firered !important;
+}
+
+.social a {
+	color: #fff !important;
 }

@@ -19,34 +19,6 @@ a {
 	outline: none;
 }
 
-a:hover, a:focus {
-	color: #c94e50;
-	outline: none;
-}
-
-button:focus {
-	outline: none;
-}
-
-section {
-	padding: 1em;
-	text-align: center;
-}
-
-
-body #cdawrap {
-	top: auto;
-	bottom: 35px;
-	right: 35px;
-	background: #ffffff;
-	border: 1px solid rgba(131,135,151,0.6);
-}
-
-.demo-wave body #cdawrap {
-	top: 35px;
-	right: 35px;
-	bottom: auto;
-}
 
 @media screen and (max-width: 40em) {
 	body {
