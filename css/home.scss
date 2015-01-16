@@ -98,16 +98,20 @@ a {
 	text-align: left;
 	background: rgba($firered, 0.65);
 	width: 75%;
-	float: right;
 	left: -3%;
 	transition: 0.3s all ease;
 }
 
 .box:hover .linktext {
-	width: 100% !important;
-	text-align: center;
-	background: transparent;
+	background: rgba(0, 0, 0, 0.7);
 	transition: 0.3s all ease;
+}
+
+.box .righttext {
+	text-align: right !important;
+	left: 25%;
+	bottom: 70%;
+	top: 0% !important;
 }
 
 /*********** Blurring ***********/
