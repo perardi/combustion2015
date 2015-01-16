@@ -147,14 +147,29 @@ img.star_right {
 /*********** Social ***********/
 .social {
 	background: $firered !important;
+	padding-top: 4%;
 }
 
 .social a {
 	color: #fff !important;
+	letter-spacing: 0;
+	font-size: 2vh;
+}
+
+.social a {
+	text-transform: none !important;
 }
 
 .smallcaps {
 	font-weight: 400;
 	letter-spacing: 0.5em;
 	text-transform: uppercase;
+}
+
+.capsborder {
+	border-top: 1px solid #fff !important;
+	margin-top: 0.5em;
+	padding-top: 0.25em;
+	width: 80% !important;
+	margin: 0 auto;
 }
