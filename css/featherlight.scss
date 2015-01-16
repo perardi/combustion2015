@@ -23,8 +23,6 @@
 		/* styling */
 		cursor: pointer;
 		background: #333;
-		/* IE8 "hack" for nested featherlights */
-		background: rgba(0, 0, 0, 0);
 	}
 
 	/* support for nested featherlights. Does not work in IE8 (use JS to fix) */
@@ -56,7 +54,7 @@
 		border-bottom: 25px solid transparent;
 
 		/* dimensions: handling small or empty content */
-		min-width:  30%;
+		width: 50%;
 
 		/* dimensions: handling large content */
 		margin-left: 5%;
@@ -69,6 +67,10 @@
 
 		/* reset white-space wrapping */
 		white-space: normal;
+		
+		/* Perardi Custom® */
+		border-bottom: 0.75em solid $firered;
+		padding-bottom: 1em;
 	}
 
 	/* contains the content */
@@ -93,7 +95,7 @@
 		text-align: center;
 		font: Arial, sans-serif;
 		background: #fff; /* Set the background in case it overlaps the content */
-		background: rgba(255, 255, 255, 0.3);
+		background: $firered;
 		color: #fff;
 	}
 

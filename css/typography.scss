@@ -21,3 +21,16 @@ p {
 	font-size: 1vh;
 	line-height: 1;
 }
+
+.framed_content p {
+	font-weight: 400;
+	font-size: 1.5vh;
+	line-height: 1.6;
+}
+
+.framed_content h1 {
+	margin-bottom: -1em;
+	opacity: 0.1;
+	font-size: 8vh;
+	text-align: right;
+}
