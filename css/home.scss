@@ -100,6 +100,9 @@ a {
 	width: 75%;
 	left: -3%;
 	transition: 0.3s all ease;
+    @include breakpoint(baby-bear) {
+		font-size: 4vh;
+    }
 }
 
 .box:hover .linktext {
@@ -165,6 +168,10 @@ $overred: saturate(darken($firered, 30), 35);
   	filter: blur(3px);
   	filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='3');
 	opacity: 0.25;
+    @include breakpoint(baby-bear) {
+		filter: blur(0px);
+		opacity: 0.35;
+    }
 }
 
 .blur:hover  {
@@ -230,9 +237,12 @@ img.star_right {
 	padding-top: 0.5em;
 }
 
-.c_logo {
+img.c_logo {
 	position: relative;
-	left: 37.5%;
+	left: 41%;
+    @include breakpoint(baby-bear) {
+		width: 13vw !important;
+    }
 }
 
 /*********** Social ***********/
@@ -246,6 +256,9 @@ img.star_right {
 	color: #fff !important;
 	letter-spacing: 0;
 	font-size: 2vh;
+    @include breakpoint(baby-bear) {
+		font-size: 3vh;
+    }
 }
 
 .social a:hover {
@@ -260,6 +273,9 @@ img.star_right {
 	font-weight: 400;
 	letter-spacing: 0.5em;
 	text-transform: uppercase;
+    @include breakpoint(baby-bear) {
+		font-size: 1.25vh;
+    }
 }
 
 .capsborder {
