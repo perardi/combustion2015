@@ -195,9 +195,6 @@ $overred: saturate(darken($firered, 30), 35);
 	transition: transform .4s ease-in-out;  
 }
 
-.logos:hover img {
-	transform:rotateY(360deg);
-}
 
 img.star {
 	float: left;
@@ -261,7 +258,7 @@ img.c_logo {
 
 /*********** Social ***********/
 .social {
-	background: $firered !important;
+	background: #B20F1F !important;
 	padding-top: 4%;
 	text-align: center !important;
 }
