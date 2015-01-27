@@ -130,8 +130,8 @@ a {
 	left: -5%;
 	transition: 0.25s all ease;
     @include breakpoint(papa-bear) {
-      width: 140%;
-	  top: -50%;
+      width: 150%;
+	  top: -25%;
     }
 }
 
@@ -141,7 +141,7 @@ a {
 	left: -15%;
     @include breakpoint(papa-bear) {
       width: 120%;
-	  top: -35%;
+	  top: -2%;
     }
 }
 
@@ -218,9 +218,12 @@ img.star_right {
 	color: $firered;
 	text-align: center;
 	line-height: 0.9;
-	margin: 0;
+	margin: 0 auto;
 	font-size: 6vh;
 	padding-bottom: 0.15em;
+    @include breakpoint(papa-bear) {
+		font-size: 4vh;
+    }	
     @include breakpoint(mama-bear) {
 		font-size: 5vh;
     }
@@ -235,6 +238,9 @@ img.star_right {
 	font-size: 2.5vh;
 	width: 65%;
 	padding-top: 0.4em;
+    @include breakpoint(papa-bear) {
+		font-size: 1.75vh;
+    }	
     @include breakpoint(mama-bear) {
 		font-size: 2vh;
     }
