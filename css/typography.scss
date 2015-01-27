@@ -1,11 +1,11 @@
 h1 {
-	font-weight: 300;
+	font-weight: 100;
 	font-size: 5vh;
 	line-height: 1;
 }
 
 h2 {
-	font-weight: 300;
+	font-weight: 100;
 	font-size: 4vh;
 	line-height: 1.5;
 }
@@ -29,8 +29,13 @@ p {
 }
 
 .framed_content h1 {
-	margin-bottom: -1em;
-	opacity: 0.1;
-	font-size: 8vh;
+	margin-bottom: 0.25em;
+	opacity: 0.3;
+	font-size: 6vh;
+	margin-top: 0.25em;
 	text-align: right;
+}
+
+.framed_content img {
+	width: 100%;
 }
