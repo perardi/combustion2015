@@ -290,6 +290,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/cta.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 31841,
+		"inputAbbreviatedPath": "\/img\/cta.png",
+		"outputAbbreviatedPath": "\/img\/cta.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/fire.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -367,13 +378,24 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/Hyatt-Regency-Chicago-Double-Standard-Queen-Guestroom-1280x427.jpg": {
+	"\/img\/hyatt_interior.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 45058,
-		"inputAbbreviatedPath": "\/img\/Hyatt-Regency-Chicago-Double-Standard-Queen-Guestroom-1280x427.jpg",
-		"outputAbbreviatedPath": "\/img\/Hyatt-Regency-Chicago-Double-Standard-Queen-Guestroom-1280x427.jpg",
+		"inputAbbreviatedPath": "\/img\/hyatt_interior.jpg",
+		"outputAbbreviatedPath": "\/img\/hyatt_interior.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/uber.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3363,
+		"inputAbbreviatedPath": "\/img\/uber.png",
+		"outputAbbreviatedPath": "\/img\/uber.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

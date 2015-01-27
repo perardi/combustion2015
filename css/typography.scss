@@ -34,8 +34,24 @@ p {
 	font-size: 6vh;
 	margin-top: 0.25em;
 	text-align: right;
+    @include breakpoint(baby-bear) {
+		font-size: 5.5vh;
+		margin-top: 0.75em;
+    }
 }
 
 .framed_content img {
 	width: 100%;
+}
+
+.framed_content a {
+	color: #fff;
+	border-bottom: 1px solid $firered;
+}
+
+.framed_content .left_logo {
+	width: 5em;
+	float: left;
+	margin-bottom: 0em;
+	margin-right: 2em;
 }

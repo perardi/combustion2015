@@ -51,11 +51,17 @@
 		/* dimensions: cut off images */
 		overflow: auto;
 		padding: 25px 25px 0;
-		border-bottom: 25px solid transparent;
+		border-bottom: 15px solid transparent;
 
 		/* dimensions: handling small or empty content */
 		width: 50%;
-
+	    @include breakpoint(mama-bear) {
+			width: 80%;
+	    }
+	    @include breakpoint(baby-bear) {
+			width: 87.5%;
+	    }
+		
 		/* dimensions: handling large content */
 		margin-left: 5%;
 		margin-right: 5%;
@@ -71,6 +77,10 @@
 		/* Perardi Custom® */
 		border-bottom: 0.75em solid $firered;
 		padding-bottom: 1em;
+	    @include breakpoint(baby-bear) {
+			padding-top: 1em;
+			padding-bottom: 1em;
+	    }
 	}
 
 	/* contains the content */
@@ -125,8 +135,6 @@
 		margin-left: 10px;
 		margin-right: 10px;
 		max-height: 98%;
-
 		padding: 10px 10px 0;
-		border-bottom: 10px solid transparent;
 	}
 }

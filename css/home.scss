@@ -37,18 +37,6 @@ a {
 	outline: none;
 }
 
-@mixin breakpoint($point) {
-  @if $point == papa-bear {
-    @media (max-width: 1236px) { @content; }
-  }
-  @else if $point == mama-bear {
-    @media (max-width: 1024px) { @content; }
-  }
-  @else if $point == baby-bear {
-    @media (max-width: 480px)  { @content; }
-  }
-}
-
 .home a {
 	font-size: 3vh;
 	text-transform: uppercase;
@@ -91,8 +79,8 @@ a {
 .box .linktext {
 	position: absolute;
 	z-index: 2;
-	font-size: 2.5vw;
-	line-height: 1;
+	font-size: 2.25vw;
+	line-height: 1.2;
 	bottom: 0;
 	padding: 1em;
 	text-align: left;
@@ -102,7 +90,7 @@ a {
 	transition: 0.3s all ease;
     @include breakpoint(baby-bear) {
 		font-size: 4vh;
-		height: 30%;
+		height: 35%;
     }
 }
 
@@ -116,6 +104,20 @@ a {
 	left: 25%;
 	bottom: 70%;
 	top: 0% !important;
+	padding: 0.5em 1em;
+    @include breakpoint(mama-bear) {
+		height: 15%;
+    }
+    @include breakpoint(baby-bear) {
+		height: 27.5%;
+    }
+}
+
+.box .oneliner {
+	height: 20%;
+    @include breakpoint(mama-bear) {
+		height: 15%;
+    }
 }
 
 /*********** Blurring ***********/
