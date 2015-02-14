@@ -278,6 +278,12 @@ img.c_logo {
     }
 }
 
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) { 
+	.social {
+		padding-top: 10% !important;
+	}
+	}
+
 .social a {
 	color: #fff !important;
 	letter-spacing: 0;
@@ -310,4 +316,7 @@ img.c_logo {
 	margin-left: 0.5em !important;
 	margin-right: 0.5em !important;
 	margin-top: 0em !important;
+    @include breakpoint(mama-bear) {
+		font-size: 2vh;
+    }
 }
