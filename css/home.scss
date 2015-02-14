@@ -169,7 +169,7 @@ $overred: saturate(darken($firered, 30), 35);
 .blur {
   	filter: blur(3px);
   	filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='3');
-	opacity: 0.25;
+	opacity: 0.30;
     @include breakpoint(mama-bear) {
 		filter: blur(0px);
 		opacity: 0.35;
