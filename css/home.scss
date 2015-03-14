@@ -228,6 +228,16 @@ img.star_right {
     }
 }
 
+.bracket_header h1 {
+	font-family: 'Racing Sans One', cursive;
+	color: $firered;
+	text-align: center;
+	line-height: 0.9;
+	margin: 0 auto;
+	font-size: 6vh;
+	padding-bottom: 0.15em;	
+}
+
 .home h2 {
 	font-family: 'Racing Sans One', cursive;
 	text-align: center;	
@@ -245,10 +255,27 @@ img.star_right {
     }
 }
 
+.bracket_header h2 {
+	font-family: 'Racing Sans One', cursive;
+	text-align: center;	
+	line-height: 1.1;
+	border-top: 1px solid #ddd;
+	margin: 0 auto;
+	font-size: 2.5vh;
+	width: 65%;
+	padding-top: 0.4em;	
+}
+
 .home img {
 	width: 6.5vw;
 	margin: 0 auto;
 	padding-top: 0.5em;
+}
+
+.bracket_header img {
+	width: 6.5vw;
+	margin: 0 auto;
+	padding-top: 0.5em;	
 }
 
 .home p {

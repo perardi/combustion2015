@@ -22,6 +22,24 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/bracket.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bracket.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/bracket.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/bracket.kit",
+		"outputAbbreviatedPath": "\/bracket.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/CHANGELOG.md": {
 		"enableFootnoteSupport": 0,
 		"enableSmartyPants": 1,
@@ -55,6 +73,31 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/css\/bracket.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/bracket.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/css\/bracket.scss": {
+		"createSourceMap": 1,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/bracket.scss",
+		"outputAbbreviatedPath": "\/css\/bracket.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/css\/combustion.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -78,7 +121,7 @@
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/css\/featherlight.scss": {
 		"createSourceMap": 0,
@@ -522,18 +565,6 @@
 		"outputStyle": 2,
 		"syntaxCheckerStyle": 1
 		},
-	"\/LICENSE.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
-		"fileType": 4096,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/LICENSE.md",
-		"outputAbbreviatedPath": "\/LICENSE.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/menu.html": {
 		"fileType": 8192,
 		"ignore": 1,
@@ -561,33 +592,6 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/README.md",
 		"outputAbbreviatedPath": "\/README.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/sideslide copy.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/sideslide copy.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/sideslide.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/sideslide.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/sideslide.kit": {
-		"fileType": 2048,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/sideslide.kit",
-		"outputAbbreviatedPath": "\/sideslide.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		}

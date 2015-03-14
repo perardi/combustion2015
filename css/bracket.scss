@@ -7,54 +7,35 @@
 	max-width: 1100px;
 	margin: 0 auto;
 	display: block;
-	display: -webkit-box;
-	display: -moz-box;
-	display: -ms-flexbox;
-	display: -webkit-flex;
-	display: -webkit-flex;
 	display: flex;
-	-webkit-flex-direction: row;
 	flex-direction: row;
 }
 .split {
 	display: block;
 	float: left;
-	display: -webkit-box;
-	display: -moz-box;
-	display: -ms-flexbox;
-	display: -webkit-flex;
 	display: flex;
 	width: 42%;
-	-webkit-flex-direction: row;
-	-moz-flex-direction: row;
 	flex-direction: row;
 }
 .champion {
 	float: left;
 	display: block;
 	width: 16%;
-	-webkit-flex-direction: row;
 	flex-direction: row;
-	-webkit-align-self: center;
 	align-self: center;
 	margin-top: -15px;
 	text-align: center;
 	padding: 230px 0\9;
 }
 .champion i {
-	color: #a0a6a8;
+	color: #fff;
 	font-size: 45px;
 	padding: 10px 0;
 }
 .round {
 	display: block;
 	float: left;
-	display: -webkit-box;
-	display: -moz-box;
-	display: -ms-flexbox;
-	display: -webkit-flex;
 	display: flex;
-	-webkit-flex-direction: column;
 	flex-direction: column;
 	width: 95%;
 	width: 30.8333%\9;
@@ -72,14 +53,13 @@
 	width: 100%;
 	padding: 10px 0;
 	height: 60px;
-	-webkit-transition: all 0.2s;
 	transition: all 0.2s;
 }
 .score {
 	font-size: 11px;
 	text-transform: uppercase;
 	float: right;
-	color: #2C7399;
+	color: #fff;
 	font-weight: bold;
 	position: absolute;
 	right: 5px;
@@ -105,7 +85,7 @@
 }
 .round-details {
 	font-size: 13px;
-	color: #2C7399;
+	color: #fff;
 	text-transform: uppercase;
 	text-align: center;
 	height: 40px;
@@ -188,7 +168,7 @@
 .date {
 	font-size: 10px;
 	letter-spacing: 2px;
-	color: #3F915F;
+	color: #fff;
 }
 
 
