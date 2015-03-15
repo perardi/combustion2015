@@ -106,17 +106,23 @@ a {
 	top: 0% !important;
 	padding: 0.5em 1em;
     @include breakpoint(mama-bear) {
-		height: 15%;
+		height: 10%;
     }
     @include breakpoint(baby-bear) {
 		height: 27.5%;
+    }
+    @include breakpoint(landscape) {
+		height: 15%;
     }
 }
 
 .box .oneliner {
 	height: 20%;
     @include breakpoint(mama-bear) {
-		height: 17.5%;
+		height: 10%;
+    }
+    @include breakpoint(landscape) {
+		height: 15%;
     }
 }
 

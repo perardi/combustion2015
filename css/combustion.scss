@@ -12,6 +12,9 @@ $firered: #ef1c26;
   @else if $point == baby-bear {
     @media (max-width: 480px)  { @content; }
   }
+  @else if $point == landscape {
+	@media (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape)  { @content; }
+  }
 }
 
 @import "typography";
