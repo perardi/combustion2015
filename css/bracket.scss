@@ -1,3 +1,29 @@
+nav.go_home {
+	clear: both !important;
+}
+
+nav.go_home a {
+	line-height: 3;
+	padding: 1em 2em 1em 1em !important;
+	width: 10vw;
+	background: $firered;
+}
+
+nav.go_home a:hover {
+	background: #fff;
+	color: $firered;
+}
+
+footer.bracket_footer {
+	text-align: center;
+}
+
+footer.bracket_footer img {
+	width: 6vw;
+	margin: 0 auto;
+	padding-top: 1em;	
+}
+
 #bracket {
 	overflow: hidden;
 	padding-top: 20px;
