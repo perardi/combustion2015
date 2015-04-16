@@ -432,6 +432,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/register_team.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5079,
+		"inputAbbreviatedPath": "\/img\/register_team.png",
+		"outputAbbreviatedPath": "\/img\/register_team.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/uber.png": {
 		"fileType": 32768,
 		"ignore": 0,
