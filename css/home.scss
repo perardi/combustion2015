@@ -119,7 +119,7 @@ a {
 .box .oneliner {
 	height: 20%;
     @include breakpoint(mama-bear) {
-		height: 10%;
+		height: 20%;
     }
     @include breakpoint(landscape) {
 		height: 15%;
