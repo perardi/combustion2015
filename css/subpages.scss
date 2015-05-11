@@ -58,7 +58,7 @@
 .subpage h3 {
 	text-transform: uppercase;
 	font-weight: 300;
-	font-size: 3vh;
+	font-size: 1.75em;
 	letter-spacing: 2px;
 	line-height: 1;
 	margin: 4vh 0 0 0;
@@ -70,7 +70,7 @@
 }
 
 .subpage p {
-	font-size: 1.4vh;
+	font-size: 1em;
 	line-height: 1.7;
     @include breakpoint(baby-bear) {
 		font-size: 2vh;
@@ -87,7 +87,7 @@
 }
 
 .subpage .larger {
-	font-size: 1.7vh;
+	font-size: 1.25em;
     @include breakpoint(baby-bear) {
 		font-size: 3vh;
 	    }	
@@ -99,10 +99,11 @@
 
 .subpage .intro_small {
 	margin: 0.1em 0 1.75em 0;
+	font-size: 0.9em;
 }
 
 strong.larger {
-	font-size: 2.25vh !important;
+	font-size: 1.5em !important;
 	font-weight: 300;
     @include breakpoint(baby-bear) {
 		font-size: 3vh !important;
@@ -110,7 +111,7 @@ strong.larger {
 }
 
 .subpage .smaller {
-	font-size: 1vh;
+	font-size: 0.5em;
     @include breakpoint(baby-bear) {
 		font-size: 1.5vh;
 	    }
@@ -132,25 +133,6 @@ strong.larger {
 
 .subpage .lookfor {
 	width: 100%;
-}
-
-.subpage_footer {
-	max-width: 1100px;
-	margin: 0 auto;
-	margin-top: 0vh;
-	clear: both !important;
-	display: block;
-	text-align: center;
-	height: 20vh;
-	margin-top: 80vh;	
-    @include breakpoint(baby-bear) {
-		margin-top: 136vh;
-	    }
-}
-
-.subpage_footer img {
-	width: 6vh;
-	margin: 0 auto;
 }
 
 .beach_left {
