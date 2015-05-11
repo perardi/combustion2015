@@ -1,5 +1,7 @@
 nav.go_home {
 	clear: both !important;
+	position: relative;
+	z-index: 10;
 }
 
 nav.go_home a {
