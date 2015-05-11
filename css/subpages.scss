@@ -4,13 +4,42 @@
 
 .subpage_header {
 	width: 100%;
-	height: 15vh;
+	height: 22vh;
 	background: #333;
 	margin: 0;
 	padding: 0;
 	position: absolute;
 	top: 0;
 	z-index: 1;
+	background: #fff url('../img/beach_header.jpg') no-repeat scroll;
+	background-position: 0% 25%;
+	background-size: cover;
+	text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    @include breakpoint(baby-bear) {
+		padding-top: 5vh;
+		height: 28vh;
+	    }
+}
+
+.subpage_header h1 {
+	color: #fff;
+	text-align: center;
+	font-family: 'Racing Sans One', cursive;
+	margin: 6vh 0 0 0;
+	padding: 0;
+	line-height: 1;	
+}
+
+.subpage_header h2 {
+	color: #fff;
+	text-align: center;
+	font-family: 'Racing Sans One', cursive;
+	margin: 0;
+	padding: 0;
+	line-height: 1;
+    @include breakpoint(baby-bear) {
+		font-size: 3vh;
+	    }
 }
 
 .subpage {
@@ -18,14 +47,87 @@
 	margin: 0 auto;
 	overflow: visible !important;
 	height: 70vh;
-	margin-top: 17vh;
+	margin-top: 23vh;
+	padding: 2vh;
+    @include breakpoint(baby-bear) {
+		margin-top: 28vh;
+		
+	    }
 }
 
 .subpage h3 {
 	text-transform: uppercase;
+	font-weight: 100;
+	font-size: 3vh;
+	letter-spacing: 2px;
+	line-height: 1;
+	margin: 4vh 0 0 0;
+	color: #ccc;
 }
 
 .subpage p {
-	font-size: 1.2vh;
-	line-height: 1.6;
+	font-size: 1.4vh;
+	line-height: 1.7;
+}
+
+.subpage a {
+	border-bottom: 1px solid #666;
+}
+
+.subpage a:hover {
+	border-bottom: 1px solid #fff;
+}
+
+.subpage .larger {
+	font-size: 1.7vh;
+}
+
+strong.larger {
+	font-size: 2.25vh !important;
+	font-weight: 300;
+}
+
+.subpage .smaller {
+	font-size: 1vh;
+}
+
+.subpage aside {
+	float: right;
+	display: block;
+	height: 50vh;
+	width: 25%;
+}
+
+.subpage aside img {
+	width: 100%;
+}
+
+.subpage .lookfor {
+	width: 100%;
+}
+
+.subpage_footer {
+	max-width: 1100px;
+	margin: 0 auto;
+	margin-top: 0vh;
+	clear: both !important;
+	display: block;
+	text-align: center;
+	height: 20vh;
+	margin-top: 80vh;	
+}
+
+.subpage_footer img {
+	width: 6vh;
+	margin: 0 auto;
+}
+
+.beach_left {
+	float: left;
+	width: 40%;
+}
+
+.beach_right {
+	float: right;
+	width: 55%;
 }

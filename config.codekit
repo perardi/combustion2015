@@ -444,6 +444,17 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
+	"\/img\/beach_header.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 233039,
+		"inputAbbreviatedPath": "\/img\/beach_header.jpg",
+		"outputAbbreviatedPath": "\/img\/beach_header.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/combustion_logo_large.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -484,6 +495,17 @@
 		"initialSize": 36112,
 		"inputAbbreviatedPath": "\/img\/fire.jpg",
 		"outputAbbreviatedPath": "\/img\/fire.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/hashtag.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8716,
+		"inputAbbreviatedPath": "\/img\/hashtag.png",
+		"outputAbbreviatedPath": "\/img\/hashtag.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -561,6 +583,17 @@
 		"initialSize": 45058,
 		"inputAbbreviatedPath": "\/img\/hyatt_interior.jpg",
 		"outputAbbreviatedPath": "\/img\/hyatt_interior.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/look_for.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 36149,
+		"inputAbbreviatedPath": "\/img\/look_for.jpg",
+		"outputAbbreviatedPath": "\/img\/look_for.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
