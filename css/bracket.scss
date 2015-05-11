@@ -8,7 +8,14 @@ nav.go_home a {
 	line-height: 3;
 	padding: 1em 2em 1em 1em !important;
 	width: 10vw;
+	font-size: 1.4vh;
+	text-transform: uppercase;
+	font-weight: 300;
+	letter-spacing: 1px;
 	background: $firered;
+    @include breakpoint(baby-bear) {
+		font-size: 2vh;
+	    }
 }
 
 nav.go_home a:hover {

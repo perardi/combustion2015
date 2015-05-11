@@ -18,6 +18,7 @@
     @include breakpoint(baby-bear) {
 		padding-top: 5vh;
 		height: 28vh;
+		position: relative;
 	    }
 }
 
@@ -50,24 +51,31 @@
 	margin-top: 23vh;
 	padding: 2vh;
     @include breakpoint(baby-bear) {
-		margin-top: 28vh;
-		
-	    }
+		margin-top: 0vh;
+	}
 }
 
 .subpage h3 {
 	text-transform: uppercase;
-	font-weight: 100;
+	font-weight: 300;
 	font-size: 3vh;
 	letter-spacing: 2px;
 	line-height: 1;
 	margin: 4vh 0 0 0;
 	color: #ccc;
+    @include breakpoint(baby-bear) {
+		font-weight: 300;
+		font-size: 4vh;
+	    }
 }
 
 .subpage p {
 	font-size: 1.4vh;
 	line-height: 1.7;
+    @include breakpoint(baby-bear) {
+		font-size: 2vh;
+		line-height: 1.5;
+	    }
 }
 
 .subpage a {
@@ -80,15 +88,32 @@
 
 .subpage .larger {
 	font-size: 1.7vh;
+    @include breakpoint(baby-bear) {
+		font-size: 3vh;
+	    }	
+}
+
+.subpage .intro {
+	margin: 0.75em 0 0 0;
+}
+
+.subpage .intro_small {
+	margin: 0.1em 0 1.75em 0;
 }
 
 strong.larger {
 	font-size: 2.25vh !important;
 	font-weight: 300;
+    @include breakpoint(baby-bear) {
+		font-size: 3vh !important;
+	    }
 }
 
 .subpage .smaller {
 	font-size: 1vh;
+    @include breakpoint(baby-bear) {
+		font-size: 1.5vh;
+	    }
 }
 
 .subpage aside {
@@ -96,6 +121,9 @@ strong.larger {
 	display: block;
 	height: 50vh;
 	width: 25%;
+    @include breakpoint(baby-bear) {
+		display: none;
+	}	
 }
 
 .subpage aside img {
@@ -115,6 +143,9 @@ strong.larger {
 	text-align: center;
 	height: 20vh;
 	margin-top: 80vh;	
+    @include breakpoint(baby-bear) {
+		margin-top: 136vh;
+	    }
 }
 
 .subpage_footer img {
@@ -125,9 +156,17 @@ strong.larger {
 .beach_left {
 	float: left;
 	width: 40%;
+    @include breakpoint(baby-bear) {
+		float: none;
+		width: 100%;
+	    }
 }
 
 .beach_right {
 	float: right;
 	width: 55%;
+    @include breakpoint(baby-bear) {
+		float: none;
+		width: 100%;
+	    }
 }
