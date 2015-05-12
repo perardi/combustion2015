@@ -72,7 +72,7 @@
 	color: #ccc;
     @include breakpoint(baby-bear) {
 		font-weight: 300;
-		font-size: 4vh;
+		font-size: 4.5vh;
 	    }
 }
 
@@ -80,8 +80,8 @@
 	font-size: 1em;
 	line-height: 1.7;
     @include breakpoint(baby-bear) {
-		font-size: 2vh;
-		line-height: 1.5;
+		font-size: 2.25vh;
+		line-height: 1.6;
 	    }
 }
 
@@ -96,7 +96,7 @@
 .subpage .larger {
 	font-size: 1.25em;
     @include breakpoint(baby-bear) {
-		font-size: 3vh;
+		font-size: 3.5vh;
 	    }	
 }
 
@@ -113,14 +113,14 @@ strong.larger {
 	font-size: 1.5em !important;
 	font-weight: 300;
     @include breakpoint(baby-bear) {
-		font-size: 3vh !important;
+		font-size: 3.5vh !important;
 	    }
 }
 
 .subpage .smaller {
 	font-size: 0.5em;
     @include breakpoint(baby-bear) {
-		font-size: 1.5vh;
+		font-size: 1.75vh;
 	    }
 }
 
