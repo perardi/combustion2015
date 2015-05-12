@@ -23,7 +23,7 @@ p {
 }
 
 ul li {
-	font-size: 1.5vh;
+	font-size: 1em;
 	line-height: 1.4;
 	margin-bottom: 0.6em;
     @include breakpoint(landscape) {
@@ -33,7 +33,7 @@ ul li {
 
 .framed_content p {
 	font-weight: 400;
-	font-size: 1.3vh;
+	font-size: 1em;
 	line-height: 1.7;
     @include breakpoint(landscape) {
 		font-size: 2.2vh;
