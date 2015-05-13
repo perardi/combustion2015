@@ -295,13 +295,13 @@ img.c_logo {
 /*********** Social ***********/
 .social {
 	background: #B20F1F !important;
-	padding-top: 7%;
+	padding-top: 3.5%;
 	text-align: center !important;
     @include breakpoint(mama-bear) {
-		padding-top: 18%;
+		padding-top: 13%;
     }
     @include breakpoint(baby-bear) {
-		padding-top: 20%;
+		padding-top: 14%;
     }
 }
 
@@ -340,6 +340,16 @@ img.c_logo {
 
 .social_icon {
 	width: 3em !important;
+	margin-left: 0.5em !important;
+	margin-right: 0.5em !important;
+	margin-top: 0em !important;
+    @include breakpoint(mama-bear) {
+		font-size: 2vh;
+    }
+}
+
+.video_icon {
+	width: 5em !important;
 	margin-left: 0.5em !important;
 	margin-right: 0.5em !important;
 	margin-top: 0em !important;
