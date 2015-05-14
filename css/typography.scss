@@ -31,9 +31,14 @@ ul li {
     }
 }
 
+.framed_content ul li {
+	color: #333 !important;
+}
+
 .framed_content p {
 	font-weight: 400;
 	font-size: 1em;
+	color: #111;
 	line-height: 1.7;
     @include breakpoint(landscape) {
 		font-size: 2.2vh;
@@ -42,8 +47,9 @@ ul li {
 
 .framed_content h1 {
 	margin-bottom: 0.25em;
-	opacity: 0.3;
+	opacity: 0.5;
 	font-size: 6vh;
+	color: #111;
 	margin-top: 0.25em;
 	text-align: right;
     @include breakpoint(baby-bear) {
@@ -60,7 +66,7 @@ ul li {
 }
 
 .framed_content a {
-	color: #fff;
+	color: #333;
 	border-bottom: 1px solid $firered;
 }
 
