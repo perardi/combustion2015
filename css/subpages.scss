@@ -1,8 +1,17 @@
 $firered: #ef1c26;
 
 .overflowing {
-	overflow: auto !important;
+	overflow: auto;
 	background: #fff;
+    @include breakpoint(baby-bear) {
+		overflow-y: scroll !important;
+	    }
+}
+
+.force_overflow {
+    @include breakpoint(baby-bear) {
+		overflow-y: scroll !important;
+	    }	
 }
 
 .subpage_header {
