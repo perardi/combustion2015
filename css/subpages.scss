@@ -8,12 +8,6 @@ $firered: #ef1c26;
 	    }
 }
 
-.force_overflow {
-    @include breakpoint(baby-bear) {
-		overflow-y: scroll !important;
-	    }	
-}
-
 .subpage_header {
 	width: 100%;
 	height: 22vh;
