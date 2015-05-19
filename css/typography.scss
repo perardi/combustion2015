@@ -62,6 +62,23 @@ ul li {
     }
 }
 
+.framed_content h4 {
+	margin-bottom: 0.125em;
+	opacity: 0.7;
+	font-weight: 300;
+	font-size: 2em;
+	color: #111;
+	margin-top: 0.125em;
+	text-align: left;
+    @include breakpoint(baby-bear) {
+		font-size: 4vh;
+		margin-top: 0.75em;
+    }
+    @include breakpoint(landscape) {
+		font-size: 5vh;
+    }
+}
+
 .framed_content img {
 	width: 100%;
 }
