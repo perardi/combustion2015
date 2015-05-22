@@ -103,6 +103,7 @@ footer.bracket_footer img {
 
 .bracket_container {
 	max-width: 1100px;
+	width: 100%;
 	margin: 0 auto;
 	padding: 1em;
     @include breakpoint(baby-bear) {
@@ -122,6 +123,10 @@ footer.bracket_footer img {
 
 ul.bracket_upper {
 	list-style-type: none !important; 
+	margin-top: -0.3em;
+    @include breakpoint(baby-bear) {
+		margin-top: 0em;
+	}
 }
 
 ul.bracket_upper li {
@@ -129,6 +134,7 @@ ul.bracket_upper li {
 	margin: auto;
 	background: $firered;
 	padding: 1.5%;
+	border-bottom: 0.5em solid darken($firered, 12);
     @include breakpoint(baby-bear) {
 		width: 100%;
 		flex-direction: column;
@@ -156,6 +162,7 @@ ul.bracket_lower li {
 	margin: auto;
 	background: $firered;
 	padding: 1.5%;
+	border-bottom: 0.5em solid darken($firered, 12);
     @include breakpoint(baby-bear) {
 		width: 100%;
 		flex-direction: column;
@@ -166,11 +173,11 @@ ul.bracket_lower li {
 
 .bracket_container h3 {
 	color: #fff;
-	line-height: 0;
+	line-height: 0.2;
 	font-weight: 100;
     @include breakpoint(baby-bear) {
-		font-size: 1.5em;
-		margin: 0.75em 0 0 0;
+		font-size: 1.6em;
+		margin: 0.5em 0 0.2em 0;
 	}
 }
 
@@ -183,7 +190,7 @@ ul.bracket_lower li {
 	border-bottom: 1px solid #fff;
     @include breakpoint(baby-bear) {
 		font-size: 1.0em;
-		margin: 1.3em 0 0 0;
+		margin: 1.4em 0 0.2em 0;
 	}
 }
 
@@ -198,6 +205,7 @@ ul.bracket_lower li {
 .score {
 	float: right;
 	font-weight: bold;
+	font-size: 110%;
 }
 
 .vs {
@@ -206,7 +214,7 @@ ul.bracket_lower li {
 	text-transform: uppercase;
 	font-size: 0.7em;
 	font-weight: bold;
-	opacity: 0.7;
+	opacity: 0.5;
 	line-height: 0;
 }
 
