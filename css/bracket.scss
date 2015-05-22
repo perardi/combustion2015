@@ -84,6 +84,10 @@ footer.bracket_footer img {
 	padding: 0;
 }
 
+.c_teams ul li.no_border {
+	border-right: none !important;
+}
+
 .c_teams ul li {
 	display: inline-block;
 	border-right: 1px solid #444;
@@ -129,6 +133,7 @@ ul.bracket_upper li {
 		width: 100%;
 		flex-direction: column;
 		margin-bottom: 1em;
+		padding: 5%;
 	}
 }
 
@@ -155,6 +160,7 @@ ul.bracket_lower li {
 		width: 100%;
 		flex-direction: column;
 		margin-bottom: 1em;
+		padding: 5%;
 	}
 }
 
@@ -175,6 +181,10 @@ ul.bracket_lower li {
 	padding-bottom: 1em;
 	margin-bottom: 0;
 	border-bottom: 1px solid #fff;
+    @include breakpoint(baby-bear) {
+		font-size: 1.0em;
+		margin: 1.3em 0 0 0;
+	}
 }
 
 .bordered {

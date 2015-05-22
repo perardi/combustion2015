@@ -28,7 +28,7 @@
         <li>Madison Minotaurs</li> 
         <li>Ottawa Wolves</li>
         <li>Toronto Muddy York</li> 
-        <li>Combustion Old Boys</li>
+        <li class="no_border">Combustion Old Boys</li>
 		</ul>			
 		</div>
 
@@ -112,44 +112,7 @@
 	
 	<section class="bracket_container">
 		<ul class="bracket_lower">
-			<li>
-				
-				<h3>Semifinals</h3>
-				<h4>2pm</h4>
-				
-				<div class="matchup">
-				<p>Team Name<span class="score">10</span></p>
-				<p class="vs">vs.</p>
-				<p>Team Name<span class="score">10</span></p>	
-				</div>
-				
-			</li>
-			
-			<li>
-				
-				<h3>Runner-up</h3>
-				<h4>3pm</h4>
 
-				<div class="matchup">
-				<p>Team Name<span class="score">10</span></p>
-				<p class="vs">vs.</p>
-				<p>Team Name<span class="score">10</span></p>	
-				</div>
-			
-			</li>
-			
-			<li>
-				
-				<h3>Championship</h3>
-				<h4>4pm</h4>
-
-				<div class="matchup">
-				<p>Team Name<span class="score">10</span></p>
-				<p class="vs">vs.</p>
-				<p>Team Name<span class="score">10</span></p>	
-				</div>
-								
-			</li>
 			
 		</ul>
 	</section>
@@ -163,6 +126,10 @@
 			$('td:contains("YASSS")').addClass('yes_bold');
 			$('td:contains("NO")').addClass('no_quiet');
 			$('td:contains("N/A")').addClass('no_quiet');
+		</script>
+		<script>
+			$(".bracket_upper").load("includes/playoffs.html");
+			$(".bracket_lower").load("includes/championships.html");
 		</script>
 	</body>
 </html>
